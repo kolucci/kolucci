@@ -22,7 +22,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: homelab-scheme-handoff
-          path: 2B-116.zip
+          path: |
+            2B-116.zip
+            ss_20261115_225442.png
           if-no-files-found: error
           retention-days: 1
 
